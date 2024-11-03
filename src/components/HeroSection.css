@@ -1,0 +1,159 @@
+ /* .hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  } 
+
+  
+.welcome-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.welcome-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: 15px;
+}
+
+.greet-image {
+  width: 70px;
+  height: 60px;
+}
+
+
+
+
+
+   
+.hero-section {
+  padding: 40px 0; 
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.carousel-container {
+  width: 100%; 
+  overflow: hidden;
+  margin: 0; 
+}
+
+.carousel {
+  display: flex;
+  width: 200%; 
+  animation: slide 10s infinite;
+}
+
+.carousel-slide {
+  min-width: 100vw; 
+  transition: transform 1s ease;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+@keyframes slide {
+  0%, 50% { transform: translateX(0); }
+  50.01%, 100% { transform: translateX(-100vw); }
+}
+
+
+@media (max-width: 768px) {
+  .carousel-container {
+      width: 100%;
+  }
+}
+
+
+ */
+
+
+
+
+
+
+
+
+ 
+.hero-section {
+  padding: 40px 0; 
+  background-color: #f9f9f9;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+}
+  /* background: linear-gradient(45deg, #e1e375, #876f21) */
+
+ 
+ .carousel-container {
+  width: 90%; 
+  max-width: 1200px;
+  overflow: hidden;
+  margin: 20px 0; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel {
+  display: flex;
+  animation: slide 10s infinite;
+}
+
+.carousel-slide {
+  min-width: 100%; 
+  transition: transform 1s ease;
+}
+
+.carousel-image {
+  width: 100%;
+  max-height: 500px; 
+  object-fit: cover; 
+  border-radius: 10px;
+} 
+ 
+
+
+
+
+@keyframes slide {
+  0%, 50% { transform: translateX(0); }
+  50.01%, 100% { transform: translateX(-100%); }
+}
+
+
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 100%;
+  }
+
+  .carousel-image {
+    max-height: 300px; 
+  }
+}  
+
+.welcome-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.welcome-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #b45921;
+  margin-right: 15px;
+}
+
+.greet-image {
+  width: 70px;
+  height: 60px;
+}

@@ -1,0 +1,96 @@
+/* Signup Container */
+.signup-container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.7);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Title */
+  .signup-container h2 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(45deg, #4CAF50, #2196F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Form Group */
+  .signup-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label */
+  .signup-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Input Fields */
+  .signup-form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    background: #f5f5f5;
+    transition: all 0.3s ease;
+  }
+  
+  .signup-form input:focus {
+    outline: none;
+    border-color: #2196F3;
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.3);
+    background: #fff;
+  }
+  
+  /* Signup Button */
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #4CAF50, #2196F3);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(33, 150, 243, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .signup-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 20px rgba(33, 150, 243, 0.4);
+  }
+  
+  /* Error Message */
+  .error {
+    color: #ff4d4d;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  
+  /* Success Message */
+  .success-message {
+    text-align: center;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    background: rgba(76, 175, 80, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

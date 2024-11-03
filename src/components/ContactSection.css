@@ -1,0 +1,140 @@
+.contact-section {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 40px 20px; /* Top and bottom padding, with slight side padding */
+  text-align: center; /* Centered text */
+  border-top: 3px solid #007bff; /* Top border for emphasis */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 40px 0; /* Margin to separate from other sections */
+}
+
+.contact-section h2 {
+  font-size: 2.2em; /* Larger font for the header */
+  color: #333; /* Darker color for text */
+  margin-bottom: 10px; /* Space below the header */
+}
+
+.contact-section p {
+  color: #555; /* Slightly lighter text for the description */
+  font-size: 1em; /* Standard font size for body text */
+  margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.contact-details {
+  margin: 20px 0; /* Vertical margin for spacing */
+}
+
+.contact-details p {
+  margin: 5px 0; /* Space between contact details */
+  font-size: 1em; /* Standard font size */
+  color: #333; /* Darker color for better readability */
+}
+
+.contact-details a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-details a:hover {
+  text-decoration: underline; /* Underline on hover for links */
+}
+.social-media {
+  margin: 20px 0; /* Margin for spacing above and below */
+  text-align: center; /* Center align text */
+}
+
+.social-media p {
+  font-size: 1.2em; /* Slightly larger font for the header */
+  color: #333; /* Darker text color for better readability */
+  margin-bottom: 15px; /* Space below the paragraph */
+}
+
+.social-icon {
+  display: inline-block; /* Align icons inline */
+  margin: 0 10px; /* Space between icons */
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Default icon color */
+  font-size: 1.5em; /* Size of the icons */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.social-icon i {
+  vertical-align: middle; /* Align icons with text */
+}
+
+.message-box {
+  margin: 20px 0; /* Vertical margin for spacing */
+  text-align: left; /* Left align the label and input fields */
+}
+
+.message-box label {
+  display: block; /* Label on a new line */
+  font-size: 1.1em; /* Slightly larger font for label */
+  color: #333; /* Dark color for the label */
+  margin-bottom: 10px; /* Space below the label */
+}
+
+.message-box input,
+.message-box textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Padding inside the input fields */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 15px; /* Space between fields */
+  font-size: 1em; /* Standard font size */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.message-box input:focus,
+.message-box textarea:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
+}
+
+
+.submit-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+button[type="submit"] {
+  /* Basic styling */
+  background-color: #007bff; /* Blue background */
+  border: none;
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+
+  /* Hover effect */
+  &:hover {
+    background-color: #0062cc; /* Darker blue on hover */
+  }
+}
+
